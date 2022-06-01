@@ -1,15 +1,19 @@
 /*------------------------ Cached Element References ------------------------*/
 const input = document.querySelector("input")
-const button = document.querySelector("submit-button")
-const ul = document.querySelector("todo-list")
+const pushButton = document.querySelector("button")
+const ul = document.querySelector("ul")
 
 /*----------------------------- Event Listeners -----------------------------*/
-pushButton.addEventListener("click", function(btn){
+pushButton.addEventListener("click", function(event){
   const newToDo = document.createElement("li")
-  new.textContent = input.value
+  newToDo.textContent = input.value
+  ul.appendChild(newToDo)
+  input.value = ""
+  
   
 
 })
+console.log()
 
 // when button is clicked 
 // create a new li element 
