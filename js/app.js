@@ -1,12 +1,14 @@
 /*------------------------ Cached Element References ------------------------*/
 const input = document.querySelector("input")
 const button = document.querySelector("submit-button")
-const ul = document.querySelector("ul")
+const ul = document.querySelector("todo-list")
 
 /*----------------------------- Event Listeners -----------------------------*/
-button.addEventListener("submit", function(int){
-  int.preventDefault()
-console.log(input)
+pushButton.addEventListener("click", function(btn){
+  const newToDo = document.createElement("li")
+  new.textContent = input.value
+  
+
 })
 
 // when button is clicked 
