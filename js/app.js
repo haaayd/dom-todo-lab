@@ -13,7 +13,7 @@ pushButton.addEventListener("click", function(event){
   
 
 })
-console.log()
+
 
 // when button is clicked 
 // create a new li element 
